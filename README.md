@@ -26,16 +26,16 @@
   <li>A table on one page (be creative on its use)</li>
   <li>A navigation bar on each webpage connecting to make a website</li>
   <li><strong>your HTML page should be divided into sections using div tag</strong></li>
-</ul>
-<p>The following styling must be implemented:</p>
-<ul>
-  <li>Same background on both pages</li>
-  <li>Non-default font styles for all paragraphs</li>
-  <li>Use of id selector</li>
-  <li>Use of class selector</li>
-  <li>Non-default margin and padding for the HTML page</li>
-  <li>Non-default style to the submit button of the HTML form</li>
-  <li>Use minimum of two CSS position properties for div tags</li>
+  <li>The following styling must be implemented:</li>
+  <ul>
+    <li>Same background on both pages</li>
+    <li>Non-default font styles for all paragraphs</li>
+    <li>Use of id selector</li>
+    <li>Use of class selector</li>
+    <li>Non-default margin and padding for the HTML page</li>
+    <li>Non-default style to the submit button of the HTML form</li>
+    <li>Use minimum of two CSS position properties for div tags</li>
+  </ul>
 </ul>
 
 <p>🔵 Stretch Goals (Not Mandatory):</p>
