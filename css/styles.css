@@ -33,7 +33,7 @@ a:hover {
 }
 
 a:visited {
-    color: #c99feb;
+    color: #bc7af1;
 }
 
 p {
@@ -82,6 +82,7 @@ p {
     height: 100%;
     width: 100%;
     opacity: 0;
+    box-shadow: 0 4px 8px 0 #525e75, 0 6px 20px 0 #525e75;
     transition: 1s ease-in-out;
     background-color: #78938a;
     border-radius: 10px;
@@ -107,11 +108,18 @@ p {
     list-style: circle;
 }
 
+iframe {
+    box-sizing: border-box;
+    border: 10px groove #92ba92;
+    border-radius: 25px;
+}
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 640px;
+    margin-bottom: 10px;
 }
 
 input:hover {
