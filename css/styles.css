@@ -25,11 +25,12 @@ nav {
 
 a {
     color: #78938a;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #92ba92;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 a:visited {
@@ -155,11 +156,28 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     background-color: #525e75;
+    color: #ede1d1;
 }
 
-.footer-link {
+.footer-link, .footer-link:visited {
     color: #ede1d1;
+}
+
+.fa-github, .fa-heart, .fa-linkedin {
+    color: #ede1d1;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.fa-github:hover, .fa-linkedin:hover {
+    transform: rotateY(360deg) scale(1.4);
+}
+
+.fa-heart:hover {
+    transform: scale(1.25);
+    color: #bc7af1;
 }
 
 .travels-main {
